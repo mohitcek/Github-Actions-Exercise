@@ -6,4 +6,4 @@ The structure of this repository is very simple, it includes a directory *src*, 
 
 The *main.py* contains a single line of code, that prints "Hello World". But, according to pylint's coding standard, any non-empty python file, should contain a docstring at the top. Untill this docstring is missing, any pull request will not pass the pylint check.
 
-To illustrate the capability of pylint and github actions, I have created two branches (*development* and *development/fix*), *development/fix* branch includes docstring in *main.py* file, thus its pull request passes all check. Whereas, *development* branch doesn't following pylint's standards and fails its checks.
+To illustrate the capability of pylint and github actions, I have created two branches (*development* and *development_fix*), *development_fix* branch includes docstring in *main.py* file, thus its pull request passes all check. Whereas, *development* branch doesn't following pylint's standards and fails its checks.
